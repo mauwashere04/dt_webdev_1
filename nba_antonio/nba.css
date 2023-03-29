@@ -1,0 +1,95 @@
+body {
+    text-align: center;
+}
+
+img {
+    width: 250px;
+    height: 300px;
+}
+
+li {
+    margin: 50px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.thunders_body {
+    background-color: #007AC1;
+    color: #002D62;
+    font-family: 'Climate Crisis', cursive;
+    letter-spacing: 5px;
+}
+
+.thunders_body h1,
+.thunders_body h2,
+.thunders_body h3,
+.thunders_body h4,
+.thunders_body h5,
+.thunders_body h6, 
+.thunders_body th, 
+.thunders_body label
+{
+    color: #FDBB30;
+}
+
+.thunders_body th, 
+.thunders_body td
+{
+    padding: 5px;
+}
+
+.kings_body {
+    background-color: #63727A;
+    color: #000000;
+    font-family: 'Climate Crisis', cursive;
+    letter-spacing: 5px;
+}
+
+.kings_body h1,
+.kings_body h2,
+.kings_body h3,
+.kings_body h4,
+.kings_body h5,
+.kings_body h6, 
+.kings_body th, 
+.kings_body label
+{
+    color: #5A2D81;
+}
+
+.kings_body th, 
+.kings_body td
+{
+    padding: 5px;
+}
+
+.warriors_body {
+    background-color: #FFC72C;
+    color: #000000;
+    font-family: 'Tilt Prism', cursive;
+    letter-spacing: 5px;
+}
+
+.warriors_body h1,
+.warriors_body h2,
+.warriors_body h3,
+.warriors_body h4,
+.warriors_body h5,
+.warriors_body h6, 
+.warriors_body th, 
+.warriors_body label
+{
+    color: #1D428A ;
+    font-weight: bold;
+
+}
+
+.warriors_body th, 
+.warriors_body td
+{
+    padding: 5px;
+    font-weight: bold;
+}

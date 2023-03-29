@@ -1,0 +1,82 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+        <title>Navbar</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            <a class="navbar-brand" href="#">
+                ANTONIO
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown01">
+                <ul class="navbar-nav">
+                    <!--dropdown item of menu-->
+                    <li class="nav-item">
+                        <a class="nav-link"> 
+                            Home 
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About
+                        </a>
+
+                        <!--dropdown sub items of menu-->
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="max-width: 1366px">
+                            <a class="dropdown-item" href="#">Education</a>
+                            <a class="dropdown-item" href="#">Work Experience</a>
+                            <a class="dropdown-item" href="#">Achievements</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"> 
+                            Contact 
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle">
+                            Services
+                        </a>
+
+                        <!--dropdown sub items of menu-->
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">
+                                Software Development
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                Mobile Development
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                Consulting
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                Teaching
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">
+                             Blog 
+                        </a>
+                    </li>
+                </ul>
+
+                <!--Form item of menu for search purpose-->
+                <form class="form-inline ml-auto">
+                    <input class="form-control mr-sm-4" type="search" placeholder="Search" />
+                    <button class="btn btn-dark my-4 my-sm-2 border border-white" type="submit">
+                        Search
+                    </button>
+                </form>
+            </div>
+        </nav>
+    </body>
+</html>

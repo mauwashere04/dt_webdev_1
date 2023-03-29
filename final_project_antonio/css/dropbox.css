@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Atlas Grostek Web";
+    src: url("../assets/webfontkit-20230328-153523/atlas_grotesk_web_regular_regular-webfont.woff");
+}
+
+/* div {
+    font-family: Atlas;
+} */
+.nav_container {
+    display: flex;
+    color: #1e1919;
+    font-family: "Atlas Grostek Web";
+}
+
+
+/* .nav_list_container {
+    display: flex;
+}
+
+.nav_list_wrapper {
+    display: flex;
+}
+
+.nav_list_ul {
+    display: flex;
+}
+
+.nav_gs_container {
+    display: flex;
+} */
